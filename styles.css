@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: grey;
+}
+
+.title-container {
+  background-color: white;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  background-color: white;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.container div:first-child {
+  display: flex;
+}
+
+.container div:first-child h2 {
+  width: 80%;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.container div:first-child p {
+  width: 20%;
+  margin: 0;
+  text-align: right;
+  color: gray;
+  padding: 5px;
+}
+
+.container div:last-child {
+  padding-bottom: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+input {
+  width: 600px;
+  background: rgb(197, 196, 196);
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
